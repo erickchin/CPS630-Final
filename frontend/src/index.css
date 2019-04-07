@@ -1,0 +1,185 @@
+/*CSS for home page*/
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar {
+  background-color: #002a38;
+  padding: 0% 0%;
+  font-size: 1em;
+}
+.navbar-brand {
+  min-height: 50px;
+  padding: 0 15px 5px;
+}
+.navbar .collapse .navbar-nav .nav-link {
+  color: #d5d5d5;
+}
+.navbar .collapse .navbar-nav .nav-link:hover,
+.navbar .collapse .navbar-nav .nav-link.active {
+  color: #4e7885;
+  font-weight: 6em;
+}
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./home/css/bg1.jpg) no-repeat center center fixed;
+  display: table;
+  height: 900px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+.landing-txt {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.landing-txt h1 {
+  color: #f4f5f5;
+  font-size: 800%;
+  font-weight: 700;
+}
+.landing-txt h3 {
+  color: #f4f5f5;
+}
+.landing-txt .btn {
+  border-color: lightblue;
+  border-width: 3px;
+  width: 150px;
+  margin: 15px;
+}
+.landing-txt a {
+  color: white;
+}
+.padding {
+  padding: 80px 0;
+}
+.padding img {
+  width: 70%;
+}
+.padding .btn {
+  color: lightblue;
+  border-color: lightblue;
+  border-width: 3px;
+}
+#fixed {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./home/css/nyc1.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+#fixed p {
+  color: white;
+}
+#fixed h4 {
+  color: white;
+}
+footer {
+  width: 100%;
+  background-color: #002a38;
+  padding: 5% 5% 10% 5%;
+  color: #fff;
+}
+.fab {
+  padding: 15px;
+  font-size: 25px;
+  color: #fff;
+}
+.fab:hover {
+  color: #d5d5d5;
+  text-decoration: none;
+}
+.icon {
+  max-width: 100px;
+}
+
+@media (max-width: 768px) {
+  .landing-text h1 {
+    font-size: 300;
+  }
+  .fab {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon {
+    padding-top: 5%;
+    max-width: 100px;
+  }
+}
+/*CSS for home page*/
+
+/*CSS for login page*/
+.jumbotron {
+  margin-top: 6%;
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(255, 230, 230);
+  box-shadow: 2px 8px 16px -6px black;
+  background: rgb(50, 50, 50, 0.1);
+}
+
+.buttoncontainer {
+  text-align: center;
+}
+
+#login {
+  margin-right: 30%;
+}
+
+#loginContent {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  width: 710px;
+  height: 360px;
+  position: relative;
+  text-align: center;
+  font-weight: lighter;
+  /* color: rgb(255,230,230); */
+  color: black;
+  box-shadow: 2px 8px 16px -6px black;
+  background: rgb(50, 50, 50, 0.1);
+  text-align: center;
+  padding-top: 5%;
+}
+/*CSS for login page*/
+
+/*CSS for Overview page*/
+.monthlyTable table,
+th,
+td {
+  border-collapse: collapse;
+  padding: 30px;
+  border: 1 solid black;
+}
+
+.monthlyTable table {
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 3%;
+}
+
+.overviewObject {
+  background-color: #f8f9fa;
+  padding: 40px;
+}
+
+.budgetCol {
+  width: 50%;
+}
+/*CSS for Overview page*/
+
+/*CSS for Signup page*/
+.main-section {
+  margin: 0 auto;
+  margin-top: 130px;
+  padding: 0;
+}
